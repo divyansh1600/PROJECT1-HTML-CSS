@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <img src="Images/zishu.jpg" alt="" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+        
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Learner</p>
+                <h1>Divyansh Gupta</h1>
+                <h2>From Chitkara University</h2>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/ggl.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> <u>About Me</u></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus odio, laboriosam iusto facere aperiam iure dolor libero mollitia. Ad reprehenderit quas ipsa autem minus maiores atque iure libero id enim, recusandae cum impedit pariatur eos illum adipisci natus. Facere quaerat optio quis dignissimos tempore voluptatum nam, et aperiam error.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web development</span><br>Development of a website</li>
+                            <li><span>UI/UX</span><br>Designing of a website</li>
+                            <li><span>C++</span><br>For software Development</li>
+                        </ul>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2022</span><br>still blah blah</li>
+                            <li><span>2019</span><br>blah blah</li>
+                            <li><span>2016-2019</span><br>blah blah</li>
+                        </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> <u>Projects</u></h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Development project</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum mollitia expedita esse sit consequatur libero suscipit quaerat reprehenderit, consectetur maiores?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>C++ project</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum mollitia expedita esse sit consequatur libero suscipit quaerat reprehenderit, consectetur maiores?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>College project</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum mollitia expedita esse sit consequatur libero suscipit quaerat reprehenderit, consectetur maiores?</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div id="contactForm">
+            <div class="inputContainer">
+                <input type="email" name="" id="" placeholder="Enter email">
+                <input type="text" placeholder="Enter name">
+            </div>
+            <div class="inputContainer">
+                <input type="text" placeholder="Enter address">
+                <input type="text" placeholder="Enter phone number">
+            </div>
+            <div class="wrapper">
+                <textarea name="" id="" rows="5" placeholder="Enter message"></textarea>
+            </div>
+            <button class="redBtn" style="margin: 5px;">Submit</button>
+        </div>
+        <div id="contactDetails">
+            <h1>Contact Me</h1><br>
+            <p class="gray">-> I would love to hear from you!</p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque beatae velit aut animi a odit ullam minima excepturi incidunt eius perspiciatis, vitae ex fuga laudantium repellat illum iusto sint magni?
+            </p><br>
+            <button id="address">Address</button><br><br>
+            <p class="my-details-info-container">
+                <i class="fas fa-map-marker-alt"></i>&nbsp;
+                <span>Delhi, India</span>
+            </p>
+            <p class="my-details-info-container">
+                <i class="fas fa-mobile-alt"></i>&nbsp;
+                <span>9999999999</span>
+            </p>
+            <p class="my-details-info-container">
+                <i class="far fa-envelope"></i>&nbsp;
+                <span>myemail@gmail.com</span>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
